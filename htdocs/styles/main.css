@@ -1,0 +1,108 @@
+/* CSS Document */
+body{
+	background:#353535;
+	color:black;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	margin:none;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+.center {
+margin: 0 auto;
+width: 60%;
+border: 2px solid #181818;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 0px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+		padding:48px;
+		color:black;
+		background-color:transparent;
+	}
+	ul#horizontal-list li:hover {
+		display: inline;
+		padding:48px;
+		padding-bottom:5%;
+		padding-top:5%;
+		color:black;
+		background-color:#798EB9;
+}
+ul#horizontal-list a{
+	color:black;
+}
+
+#menu-outer{
+	color:black;
+	position:relative;
+	top:0px;
+	width:90%;
+	height:48px;
+	background-color:#8A9FCA;
+	padding:8px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+#main-page{
+	position:relative;
+	width:100%;
+	height:auto;
+	background-color:aliceblue;
+}
+#mp-container{
+		position:relative;
+	top:4px;
+	width:90%;
+	padding:8px;
+	padding-top:0px;
+	padding-bottom:0px;
+	height:auto;
+	background-color:aliceblue;
+}
+
+#banner{
+	
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
