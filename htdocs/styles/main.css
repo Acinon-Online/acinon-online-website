@@ -1,14 +1,17 @@
 /* CSS Document */
 body{
-	background:#353535;
+	background:#DDDDDD;
 	color:black;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
 	margin:none;
+	line-height: 20px;
+	padding-top:12px
 }
 
 .table {
 	display: table;   /* Allow the centering to work */
 	margin: 0 auto;
+	float:right;
 }
 
 .center {
@@ -25,31 +28,24 @@ ul#horizontal-list {
 	ul#horizontal-list li {
 		display: inline;
 		padding:48px;
-		color:black;
+		color:white;
 		background-color:transparent;
 	}
-	ul#horizontal-list li:hover {
-		display: inline;
-		padding:48px;
-		padding-bottom:5%;
-		padding-top:5%;
-		color:black;
-		background-color:#798EB9;
-}
 ul#horizontal-list a{
-	color:black;
+	color:white;
 }
 
 #menu-outer{
 	color:black;
 	position:relative;
 	top:0px;
-	width:90%;
+	width:96%;
 	height:48px;
-	background-color:#8A9FCA;
+	background-color:#4F689E;
 	padding:8px;
 	padding-top:0px;
 	padding-bottom:0px;
+	line-height:16px;
 }
 
 #main-page{
@@ -60,8 +56,8 @@ ul#horizontal-list a{
 }
 #mp-container{
 		position:relative;
-	top:4px;
-	width:90%;
+	top:20px;
+	width:96%;
 	padding:8px;
 	padding-top:0px;
 	padding-bottom:0px;
@@ -105,4 +101,19 @@ ul#horizontal-list a{
 .active {
   background-color: #04AA6D;
   color: white;
+}
+
+.inline-pic-container{
+	position:relative;
+	display:inline;
+	width:240px;
+	height:240px;
+}
+	.inline-pic {
+		position:relative;
+		display:inline;
+	}
+.pic-caption{
+	position:relative;
+	text-align:center;
 }
