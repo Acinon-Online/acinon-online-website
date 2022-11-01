@@ -117,6 +117,14 @@ ul#horizontal-list a{
 	position:relative;
 	text-align:center;
 }
+
+.list2d
+{
+	columns: 3;
+	-webkit-columns: 3;
+	-moz-columns: 3;
+}
+
 #footer{
 	position:relative;
 	top:40px;
