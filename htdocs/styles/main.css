@@ -1,6 +1,6 @@
 /* CSS Document */
 body{
-	background:#DDDDDD;
+	background:#EEEFFE;
 	color:black;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
 	margin:none;
@@ -116,4 +116,10 @@ ul#horizontal-list a{
 .pic-caption{
 	position:relative;
 	text-align:center;
+}
+#footer{
+	position:relative;
+	top:40px;
+	width:96%;
+	padding:8px;
 }
