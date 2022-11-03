@@ -125,6 +125,28 @@ ul#horizontal-list a{
 	-moz-columns: 3;
 }
 
+.box-list{
+		columns: 4;
+	-webkit-columns: 4;
+	-moz-columns: 4;
+}
+.box-list li{
+	display:inline-block;
+}
+
+.newsbox{
+	border:solid 2px grey;
+	padding:4px;
+	margin:4px;
+	background-color:#224466;
+	text-align:center;
+}
+
+.news-link{
+	color:white;
+	text-align:center;
+}
+
 #footer{
 	position:relative;
 	top:40px;
